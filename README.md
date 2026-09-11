@@ -27,7 +27,7 @@ Each public recording captures the connectome state, pass number, modeled spikes
 - [HELL PROTOCOL, run 03](https://youtu.be/_Y4ATRcFTyU)
 - [MARKET MAKER, run 04](https://youtu.be/u1YOD1ANK7I)
 - [WALL CONTACT, run 05](https://youtu.be/5jYuav0oCQs)
-- [THE FEED, run 06](https://youtu.be/txIp9AfX0nc)
+- [LOCAL MODEL, run 06](https://youtu.be/txIp9AfX0nc)
 
 Live drop: https://fruitfly.fashion/
 
