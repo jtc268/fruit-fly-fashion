@@ -18,6 +18,19 @@ python3.11 -m venv .venv
 
 The official graph download is about 1.1 GB. Normalized graph files, local environments, and full-resolution print assets stay out of Git. Proof videos, previews, and signed manifests are committed.
 
+## Watch the fly work
+
+Each public recording captures the connectome state, pass number, modeled spikes, active-neuron count, and the evolving shirt art from the same run committed here.
+
+- [SABER SYNC, run 01](https://youtu.be/JRgIO7jjE-w)
+- [RAW SIGNAL, run 02](https://youtu.be/3AO2ech1_TM)
+- [HELL PROTOCOL, run 03](https://youtu.be/cLwCLxYk2gQ)
+- [MARKET MAKER, run 04](https://youtu.be/9AhE6QxRRn4)
+- [WALL CONTACT, run 05](https://youtu.be/WgVbjzdoX9U)
+- [FLYTOK, run 06](https://youtu.be/ismtOkt6q18)
+
+Live drop: https://166700.vercel.app/
+
 ## Honest label
 
 This is an engineered connectome-in-the-loop art system. The fly controls the final visual mutations through its modeled whole-graph response to the seed art. The dynamics and retina are explicit models, not a resurrected biological fly. Read [PROTOCOL.md](PROTOCOL.md) before tweeting something weird about consciousness.
@@ -29,4 +42,3 @@ This is an engineered connectome-in-the-loop art system. The fly controls the fi
 - DOOMFLY: https://github.com/nftechie/doomfly
 
 MaleCNS data retains its upstream license. DOOMFLY is MIT. Original code in this repository is MIT, © 2026 Adore LLC.
-
