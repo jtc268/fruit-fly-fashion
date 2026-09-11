@@ -1,0 +1,3 @@
+[submodule "vendor/doomfly"]
+	path = vendor/doomfly
+	url = https://github.com/nftechie/doomfly

@@ -1,0 +1,145 @@
+{
+  "run_started_utc": "20260911T152138Z",
+  "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+  "dataset": {
+    "annotations.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "neurotransmitters.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "bytes": 43282834,
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+    },
+    "edges.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+    }
+  },
+  "products": [
+    {
+      "slug": "hell-protocol",
+      "run_id": "20260911T152138Z-03-hell-protocol",
+      "seed_art_sha256": "1204b8f6ef281809f187fea77ae2798fe7fdf5506b7b80dce2659e9e6ec747fb",
+      "final_art_sha256": "2a8300dc8664edf8eefa48fcbdc25a68cd20c4de7393e55efe102d27daaeb9eb",
+      "response_chain_sha256": "11c9567c734408652606325ea2f5adda49bf2b839ec6bf4c06bc86f176fe2766",
+      "final_parameters": {
+        "hue_degrees": -19.067,
+        "rotation_degrees": 2.018,
+        "scale": 0.95373,
+        "x_shift_px": -2,
+        "y_shift_px": -11,
+        "echo_px": 21,
+        "echo_alpha": 19
+      },
+      "passes": [
+        {
+          "pass": "silhouette",
+          "spikes": 57102,
+          "active": 8969,
+          "sim_ms": 150.0,
+          "wall_seconds": 0.150953,
+          "response_sha256": "1664fa1aef6510140cab243cfe39ce8f99562cdfb07f402fcc8f6cd2f173f563",
+          "parameters": {
+            "hue_degrees": -0.431,
+            "rotation_degrees": 0.371,
+            "scale": 0.94314,
+            "x_shift_px": -59,
+            "y_shift_px": 3,
+            "echo_px": 28,
+            "echo_alpha": 34
+          }
+        },
+        {
+          "pass": "mirror",
+          "spikes": 46005,
+          "active": 8137,
+          "sim_ms": 300.0,
+          "wall_seconds": 0.159494,
+          "response_sha256": "8937c8959712e96277aa10e160792078048e26e5419756d2464b962cc0f9f601",
+          "parameters": {
+            "hue_degrees": -19.412,
+            "rotation_degrees": -1.825,
+            "scale": 0.94627,
+            "x_shift_px": -41,
+            "y_shift_px": -57,
+            "echo_px": 12,
+            "echo_alpha": 33
+          }
+        },
+        {
+          "pass": "contrast",
+          "spikes": 48235,
+          "active": 8141,
+          "sim_ms": 450.0,
+          "wall_seconds": 0.146653,
+          "response_sha256": "e63e347d61fc2176e0403e135c4afd84579036cb458c367f15e96f5e0a051eb1",
+          "parameters": {
+            "hue_degrees": -0.949,
+            "rotation_degrees": 1.469,
+            "scale": 0.95765,
+            "x_shift_px": -42,
+            "y_shift_px": 88,
+            "echo_px": 37,
+            "echo_alpha": 40
+          }
+        },
+        {
+          "pass": "cyan",
+          "spikes": 44826,
+          "active": 8045,
+          "sim_ms": 600.0,
+          "wall_seconds": 0.152993,
+          "response_sha256": "32f943483408c6296bebb4d0986ba1792257dcf6908d9bef62bf2f0509d78019",
+          "parameters": {
+            "hue_degrees": 5.263,
+            "rotation_degrees": 1.414,
+            "scale": 1.01922,
+            "x_shift_px": -2,
+            "y_shift_px": -85,
+            "echo_px": 30,
+            "echo_alpha": 28
+          }
+        },
+        {
+          "pass": "magenta",
+          "spikes": 44509,
+          "active": 8065,
+          "sim_ms": 750.0,
+          "wall_seconds": 0.159776,
+          "response_sha256": "9e3fc38923c632b0b72433143427bfafb3357ef1d28525597e54561ad7f0e6f2",
+          "parameters": {
+            "hue_degrees": -18.722,
+            "rotation_degrees": -1.551,
+            "scale": 0.92549,
+            "x_shift_px": -38,
+            "y_shift_px": -23,
+            "echo_px": 36,
+            "echo_alpha": 30
+          }
+        },
+        {
+          "pass": "final",
+          "spikes": 46469,
+          "active": 8146,
+          "sim_ms": 900.0,
+          "wall_seconds": 0.150621,
+          "response_sha256": "887a59deed655f2b3bd77bac36c06bad2d86335fb60118453801613519ee06d8",
+          "parameters": {
+            "hue_degrees": -19.067,
+            "rotation_degrees": 2.018,
+            "scale": 0.95373,
+            "x_shift_px": -2,
+            "y_shift_px": -11,
+            "echo_px": 21,
+            "echo_alpha": 19
+          }
+        }
+      ],
+      "video": "outputs/proof/hell-protocol.mp4",
+      "print_file": "outputs/print/hell-protocol.png"
+    }
+  ]
+}

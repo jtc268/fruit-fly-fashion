@@ -1,0 +1,145 @@
+{
+  "run_started_utc": "20260911T152138Z",
+  "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+  "dataset": {
+    "annotations.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "neurotransmitters.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "bytes": 43282834,
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+    },
+    "edges.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+    }
+  },
+  "products": [
+    {
+      "slug": "saber-sync",
+      "run_id": "20260911T152138Z-01-saber-sync",
+      "seed_art_sha256": "94a64ffbbee6ec1b03592d76602ab03544164055d373b119030fd6125f6471c2",
+      "final_art_sha256": "51917f0d4c838a5a78c238b22d083325911b10ca96c75f16eac0be1dc33d496a",
+      "response_chain_sha256": "40206885e9b950bbfa6258455a031e5559ae9ad3982c028e60781d43ba665758",
+      "final_parameters": {
+        "hue_degrees": -10.957,
+        "rotation_degrees": -2.622,
+        "scale": 0.96078,
+        "x_shift_px": 4,
+        "y_shift_px": 91,
+        "echo_px": 36,
+        "echo_alpha": 28
+      },
+      "passes": [
+        {
+          "pass": "silhouette",
+          "spikes": 50043,
+          "active": 8817,
+          "sim_ms": 150.0,
+          "wall_seconds": 0.15106,
+          "response_sha256": "ea3de917be3ff1245122d33a3f931966b439943a6b65107cb871c39959d2be16",
+          "parameters": {
+            "hue_degrees": 10.957,
+            "rotation_degrees": 1.441,
+            "scale": 0.97176,
+            "x_shift_px": 21,
+            "y_shift_px": -25,
+            "echo_px": 40,
+            "echo_alpha": 43
+          }
+        },
+        {
+          "pass": "mirror",
+          "spikes": 46630,
+          "active": 8022,
+          "sim_ms": 300.0,
+          "wall_seconds": 0.196239,
+          "response_sha256": "f5eeebef1bd1c296befbad575ffc430b6d068fe405b69cbe90051219297a24c9",
+          "parameters": {
+            "hue_degrees": 0.259,
+            "rotation_degrees": -1.222,
+            "scale": 0.9702,
+            "x_shift_px": 62,
+            "y_shift_px": 31,
+            "echo_px": 40,
+            "echo_alpha": 24
+          }
+        },
+        {
+          "pass": "contrast",
+          "spikes": 47287,
+          "active": 7983,
+          "sim_ms": 450.0,
+          "wall_seconds": 0.163384,
+          "response_sha256": "39495349f533baae6dfd991e594b505c961a19cf84f19752f371d5ee689d2e01",
+          "parameters": {
+            "hue_degrees": 17.514,
+            "rotation_degrees": 0.645,
+            "scale": 0.9298,
+            "x_shift_px": -39,
+            "y_shift_px": 31,
+            "echo_px": 15,
+            "echo_alpha": 24
+          }
+        },
+        {
+          "pass": "cyan",
+          "spikes": 45543,
+          "active": 7980,
+          "sim_ms": 600.0,
+          "wall_seconds": 0.175724,
+          "response_sha256": "641c83c117dce19ce0863cf21533d44c8aee2aa15cbd8248591518bed762b6f5",
+          "parameters": {
+            "hue_degrees": 0.086,
+            "rotation_degrees": -0.727,
+            "scale": 0.96941,
+            "x_shift_px": 81,
+            "y_shift_px": -67,
+            "echo_px": 37,
+            "echo_alpha": 51
+          }
+        },
+        {
+          "pass": "magenta",
+          "spikes": 44853,
+          "active": 8031,
+          "sim_ms": 750.0,
+          "wall_seconds": 0.15091,
+          "response_sha256": "ecaf38964980fee490c42ec8f7b47323eb82be8da396aa8fc3928f3e23868104",
+          "parameters": {
+            "hue_degrees": -8.369,
+            "rotation_degrees": 1.249,
+            "scale": 0.9898,
+            "x_shift_px": 76,
+            "y_shift_px": 85,
+            "echo_px": 34,
+            "echo_alpha": 20
+          }
+        },
+        {
+          "pass": "final",
+          "spikes": 46338,
+          "active": 7997,
+          "sim_ms": 900.0,
+          "wall_seconds": 0.147976,
+          "response_sha256": "b85d79294ea9e20162218073486276a3e104c47b9e7a2a34db15e337fe089515",
+          "parameters": {
+            "hue_degrees": -10.957,
+            "rotation_degrees": -2.622,
+            "scale": 0.96078,
+            "x_shift_px": 4,
+            "y_shift_px": 91,
+            "echo_px": 36,
+            "echo_alpha": 28
+          }
+        }
+      ],
+      "video": "outputs/proof/saber-sync.mp4",
+      "print_file": "outputs/print/saber-sync.png"
+    }
+  ]
+}
