@@ -4,3 +4,4 @@ vendor/doomfly/outputs/doom/malecns_v1/
 vendor/doomfly/outputs/doom/libneural.*
 __pycache__/
 .DS_Store
+.vercel
