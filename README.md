@@ -31,6 +31,14 @@ Each public recording captures the connectome state, pass number, modeled spikes
 
 Live drop: https://166700.vercel.app/
 
+## FLY PAINT
+
+The live store also exposes a custom paint booth below the six fixed shirts. A brief, meme lane, seed, and intensity drive six deterministic mutations derived from the verified MaleCNS run lineage. The same inputs reproduce the same artwork and run manifest.
+
+The browser receives a lightweight projection so a customer can watch the passes finish in real time. The checkout signs that exact run server-side, renders the same design as a transparent 3703 x 4200 print asset, and sends it to the same Comfort Colors 1717 Printify workflow after Stripe confirms payment.
+
+The production core is published at [`web/fly-paint-core.mjs`](web/fly-paint-core.mjs). It does not pretend to rerun the entire 25,582,938-edge graph in a browser; its ancestry hashes and spike baselines come from the full verified runs in this repository.
+
 ## Honest label
 
 This is an engineered connectome-in-the-loop art system. The fly controls the final visual mutations through its modeled whole-graph response to the seed art. The dynamics and retina are explicit models, not a resurrected biological fly. Read [PROTOCOL.md](PROTOCOL.md) before tweeting something weird about consciousness.
