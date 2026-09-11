@@ -29,7 +29,7 @@ Each public recording captures the connectome state, pass number, modeled spikes
 - [WALL CONTACT, run 05](https://youtu.be/WgVbjzdoX9U)
 - [FLYTOK, run 06](https://youtu.be/ismtOkt6q18)
 
-Live drop: https://166700.vercel.app/
+Live drop: https://fruitfly.fashion/
 
 ## FLY PAINT
 
