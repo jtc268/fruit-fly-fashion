@@ -4,7 +4,7 @@
 
 Each shirt begins with a human-made seed composition. The script presents that composition to the MaleCNS retinal projection in six passes. Each pass advances the complete 166,700-node, 25,582,938-edge graph through DOOMFLY's fixed-step leaky-integrate-and-fire proxy.
 
-The full spike-count vector is hashed after every pass. That response determines hue rotation, rotation, scale, x/y placement, and cyan/magenta echo geometry. The mutated image becomes the next retinal stimulus. After six passes, the pipeline writes the exact 300 DPI print file and its SHA-256 hash.
+The full spike-count vector is hashed after every pass. That response determines rotation, scale, and x/y placement. The source RGB palette stays locked so the connectome cannot wash out or homogenize the six distinct art directions. The mutated image becomes the next retinal stimulus. After six passes, the pipeline writes the exact 300 DPI print file and its SHA-256 hash.
 
 ## What this does not claim
 
@@ -19,4 +19,3 @@ Every product emits:
 - a reproducible final preview and mockup.
 
 The official MaleCNS v1.0 source files are verified against DOOMFLY's pinned SHA-256 lock before any run.
-

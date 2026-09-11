@@ -1,5 +1,5 @@
 {
-  "run_started_utc": "20260911T171859Z",
+  "run_started_utc": "20260911T194825Z",
   "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
   "dataset": {
     "annotations.feather": {
@@ -21,18 +21,19 @@
   "products": [
     {
       "slug": "hell-protocol",
-      "run_id": "20260911T171859Z-03-hell-protocol",
+      "run_id": "20260911T194825Z-03-hell-protocol",
       "seed_art_sha256": "1204b8f6ef281809f187fea77ae2798fe7fdf5506b7b80dce2659e9e6ec747fb",
-      "final_art_sha256": "257ebd688ded9269b73e602c8ce4c455a3872af88ed7097f5b9245d1d92b93df",
-      "response_chain_sha256": "fc5aa9ca959e2946035047d9d00694620e4fe8d46f964faa0222491f1f2e2d0e",
+      "final_art_sha256": "297e6fdface5ac94771464adcf9a941a5c9eecfd0b2072082cb783564e550541",
+      "response_chain_sha256": "542228b6568edd1cb31b35214c581b48a42b5717c73a6b8e08e0c1cec59ddfe6",
+      "palette_lock": "source RGB preserved; connectome response controls geometry",
       "final_parameters": {
-        "hue_degrees": 21.482,
-        "rotation_degrees": -1.029,
-        "scale": 0.98627,
-        "x_shift_px": 53,
-        "y_shift_px": 19,
-        "echo_px": 33,
-        "echo_alpha": 23
+        "hue_degrees": 0.0,
+        "rotation_degrees": -1.1,
+        "scale": 0.98471,
+        "x_shift_px": 15,
+        "y_shift_px": -14,
+        "echo_px": 0,
+        "echo_alpha": 0
       },
       "passes": [
         {
@@ -40,101 +41,101 @@
           "spikes": 57102,
           "active": 8969,
           "sim_ms": 150.0,
-          "wall_seconds": 0.150596,
+          "wall_seconds": 0.144404,
           "response_sha256": "1664fa1aef6510140cab243cfe39ce8f99562cdfb07f402fcc8f6cd2f173f563",
           "parameters": {
-            "hue_degrees": -0.431,
-            "rotation_degrees": 0.371,
-            "scale": 0.94314,
-            "x_shift_px": -59,
-            "y_shift_px": 3,
-            "echo_px": 28,
-            "echo_alpha": 34
+            "hue_degrees": 0.0,
+            "rotation_degrees": 0.159,
+            "scale": 0.98694,
+            "x_shift_px": -24,
+            "y_shift_px": 1,
+            "echo_px": 0,
+            "echo_alpha": 0
           }
         },
         {
           "pass": "mirror",
-          "spikes": 51175,
-          "active": 8143,
+          "spikes": 52653,
+          "active": 8185,
           "sim_ms": 300.0,
-          "wall_seconds": 0.172879,
-          "response_sha256": "0f31ac3c2a97f616e9fb16c3f5fc8a25e68fc243bfd0c6e7363772ad37539b5c",
+          "wall_seconds": 0.158669,
+          "response_sha256": "9cfe7b18f47259e0d8c393b8c66f7cf065b08d28e1f6a61057e4b45c830be1b2",
           "parameters": {
-            "hue_degrees": -15.616,
-            "rotation_degrees": -1.194,
-            "scale": 1.00902,
-            "x_shift_px": -82,
-            "y_shift_px": 48,
-            "echo_px": 26,
-            "echo_alpha": 27
+            "hue_degrees": 0.0,
+            "rotation_degrees": -0.771,
+            "scale": 0.99529,
+            "x_shift_px": 20,
+            "y_shift_px": -12,
+            "echo_px": 0,
+            "echo_alpha": 0
           }
         },
         {
           "pass": "contrast",
-          "spikes": 54439,
-          "active": 8168,
+          "spikes": 54102,
+          "active": 8147,
           "sim_ms": 450.0,
-          "wall_seconds": 0.143667,
-          "response_sha256": "e865c9bca64c2c494d293b947a33a6d60b8bf4d33d7d78a706606652ea44dc48",
+          "wall_seconds": 0.150587,
+          "response_sha256": "0b8aeaea6767d27fb4472b31d739ad04c29f394c3106cfaab24e57e71f6744a4",
           "parameters": {
-            "hue_degrees": 3.537,
-            "rotation_degrees": 2.731,
-            "scale": 0.92157,
-            "x_shift_px": 19,
-            "y_shift_px": -24,
-            "echo_px": 19,
-            "echo_alpha": 20
+            "hue_degrees": 0.0,
+            "rotation_degrees": 0.524,
+            "scale": 1.00788,
+            "x_shift_px": -12,
+            "y_shift_px": 36,
+            "echo_px": 0,
+            "echo_alpha": 0
           }
         },
         {
           "pass": "cyan",
-          "spikes": 50293,
-          "active": 8116,
+          "spikes": 51938,
+          "active": 8135,
           "sim_ms": 600.0,
-          "wall_seconds": 0.158982,
-          "response_sha256": "03d0e5a2943d7a633399bfa0eda3b06738c0e22f250f34157458a002e22d11f3",
+          "wall_seconds": 0.160302,
+          "response_sha256": "0d6e22524d8ca19297f3c0497d02a81efadce50e2ce9a75598e35d1fe4ab947a",
           "parameters": {
-            "hue_degrees": -4.573,
-            "rotation_degrees": -0.727,
-            "scale": 0.95686,
-            "x_shift_px": -34,
-            "y_shift_px": -104,
-            "echo_px": 28,
-            "echo_alpha": 31
+            "hue_degrees": 0.0,
+            "rotation_degrees": 1.124,
+            "scale": 0.98706,
+            "x_shift_px": -3,
+            "y_shift_px": 9,
+            "echo_px": 0,
+            "echo_alpha": 0
           }
         },
         {
           "pass": "magenta",
-          "spikes": 51408,
-          "active": 8242,
+          "spikes": 50361,
+          "active": 8165,
           "sim_ms": 750.0,
-          "wall_seconds": 0.162323,
-          "response_sha256": "97fab6abe9327bd0dbd8120234985f5088597b2f84a4661e03a7710df93a0366",
+          "wall_seconds": 0.155133,
+          "response_sha256": "e7f944d368748ab9962900acde8d2d2c3ca1f4c05cda324ccee28b46ea53fc91",
           "parameters": {
-            "hue_degrees": 2.502,
-            "rotation_degrees": 2.045,
-            "scale": 0.97098,
-            "x_shift_px": -59,
-            "y_shift_px": -80,
-            "echo_px": 28,
-            "echo_alpha": 31
+            "hue_degrees": 0.0,
+            "rotation_degrees": -0.312,
+            "scale": 0.99612,
+            "x_shift_px": 29,
+            "y_shift_px": -6,
+            "echo_px": 0,
+            "echo_alpha": 0
           }
         },
         {
           "pass": "final",
-          "spikes": 53237,
-          "active": 8139,
+          "spikes": 53852,
+          "active": 8166,
           "sim_ms": 900.0,
-          "wall_seconds": 0.160972,
-          "response_sha256": "57dff272d6978a83e967e03d3429c9eafdddbf67f1cbd19a6979fa1e5811b92a",
+          "wall_seconds": 0.187844,
+          "response_sha256": "0b4eb21f9efd07af7cdef21182c0f7beff144b37057ad53f31c35b4a1009c0a8",
           "parameters": {
-            "hue_degrees": 21.482,
-            "rotation_degrees": -1.029,
-            "scale": 0.98627,
-            "x_shift_px": 53,
-            "y_shift_px": 19,
-            "echo_px": 33,
-            "echo_alpha": 23
+            "hue_degrees": 0.0,
+            "rotation_degrees": -1.1,
+            "scale": 0.98471,
+            "x_shift_px": 15,
+            "y_shift_px": -14,
+            "echo_px": 0,
+            "echo_alpha": 0
           }
         }
       ],

@@ -2,7 +2,7 @@
 
 The 166,700-neuron MaleCNS connectome art-directed a six-shirt drop.
 
-This repository is the proof, not a vibes-only attribution. It downloads the official MaleCNS v1.0 release, verifies all three source hashes, runs the complete retained graph through DOOMFLY's audited LIF proxy, and uses the resulting spike vectors to control the final color, rotation, placement, scale, and neural-color echo of each print file.
+This repository is the proof, not a vibes-only attribution. It downloads the official MaleCNS v1.0 release, verifies all three source hashes, runs the complete retained graph through DOOMFLY's audited LIF proxy, and uses the resulting spike vectors to control the final rotation, placement, and scale of each print file while preserving the seed composition's original RGB palette.
 
 ## Reproduce it
 
@@ -22,12 +22,12 @@ The official graph download is about 1.1 GB. Normalized graph files, local envir
 
 Each public recording captures the connectome state, pass number, modeled spikes, active-neuron count, and the evolving shirt art from the same run committed here.
 
-- [SABER SYNC, run 01](https://youtu.be/kaau4EFe_fs)
-- [RAW SIGNAL, run 02](https://youtu.be/nE11CKId1rw)
-- [HELL PROTOCOL, run 03](https://youtu.be/_Y4ATRcFTyU)
-- [MARKET MAKER, run 04](https://youtu.be/u1YOD1ANK7I)
-- [WALL CONTACT, run 05](https://youtu.be/5jYuav0oCQs)
-- [LOCAL MODEL, run 06](https://youtu.be/txIp9AfX0nc)
+- [SABER SYNC, run 01](https://youtu.be/PsyYCbb3VdU)
+- [RAW SIGNAL, run 02](https://youtu.be/z7UxYPu4K-0)
+- [HELL PROTOCOL, run 03](https://youtu.be/SBirG2Dvjaw)
+- [MARKET MAKER, run 04](https://youtu.be/bwokcFNjF0k)
+- [WALL CONTACT, run 05](https://youtu.be/DmzSKf962tI)
+- [LOCAL MODEL, run 06](https://youtu.be/SeDXEfgg1gg)
 
 Live drop: https://fruitfly.fashion/
 
@@ -41,7 +41,7 @@ The production core is published at [`web/fly-paint-core.mjs`](web/fly-paint-cor
 
 ## Honest label
 
-This is an engineered connectome-in-the-loop art system. The fly controls the final visual mutations through its modeled whole-graph response to the seed art. The dynamics and retina are explicit models, not a resurrected biological fly. Read [PROTOCOL.md](PROTOCOL.md) before tweeting something weird about consciousness.
+This is an engineered connectome-in-the-loop art system. The fly controls the final geometric mutations through its modeled whole-graph response to the seed art. The source palette is deliberately locked so six distinct art directions do not collapse into one house color. The dynamics and retina are explicit models, not a resurrected biological fly. Read [PROTOCOL.md](PROTOCOL.md) before tweeting something weird about consciousness.
 
 ## Sources
 

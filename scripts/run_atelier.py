@@ -3,8 +3,8 @@
 
 The human supplies one seed composition per shirt. Each composition is shown to
 the MaleCNS retinal projection across six visual passes. Activity from the full
-166,700-neuron graph is hashed into the next visual mutation, so every pass
-changes what the connectome sees next. The script emits final print files,
+166,700-neuron graph is hashed into the next geometric mutation, while each
+seed composition's original palette stays locked. The script emits final print files,
 tamper-evident manifests, previews, and an MP4 encoded while the run executes.
 """
 
@@ -96,13 +96,13 @@ def stimulus(image: Image.Image) -> np.ndarray:
 
 def parameters(digest: bytes) -> dict[str, float | int]:
     return {
-        "hue_degrees": round(-22 + 44 * digest[0] / 255, 3),
-        "rotation_degrees": round(-3.5 + 7 * digest[1] / 255, 3),
-        "scale": round(0.92 + 0.10 * digest[2] / 255, 5),
-        "x_shift_px": int(round(-90 + 180 * digest[3] / 255)),
-        "y_shift_px": int(round(-110 + 220 * digest[4] / 255)),
-        "echo_px": int(12 + 34 * digest[5] / 255),
-        "echo_alpha": int(18 + 34 * digest[6] / 255),
+        "hue_degrees": 0.0,
+        "rotation_degrees": round(-1.5 + 3 * digest[1] / 255, 3),
+        "scale": round(0.98 + 0.03 * digest[2] / 255, 5),
+        "x_shift_px": int(round(-36 + 72 * digest[3] / 255)),
+        "y_shift_px": int(round(-44 + 88 * digest[4] / 255)),
+        "echo_px": 0,
+        "echo_alpha": 0,
     }
 
 
@@ -311,6 +311,7 @@ def main() -> None:
             "seed_art_sha256": source_hash,
             "final_art_sha256": output_hash,
             "response_chain_sha256": hasher.hexdigest(),
+            "palette_lock": "source RGB preserved; connectome response controls geometry",
             "final_parameters": pass_records[-1]["parameters"],
             "passes": pass_records,
             "video": str(video_path.relative_to(ROOT)),
