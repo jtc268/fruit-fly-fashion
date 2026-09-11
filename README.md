@@ -22,12 +22,12 @@ The official graph download is about 1.1 GB. Normalized graph files, local envir
 
 Each public recording captures the connectome state, pass number, modeled spikes, active-neuron count, and the evolving shirt art from the same run committed here.
 
-- [SABER SYNC, run 01](https://youtu.be/JRgIO7jjE-w)
-- [RAW SIGNAL, run 02](https://youtu.be/3AO2ech1_TM)
-- [HELL PROTOCOL, run 03](https://youtu.be/cLwCLxYk2gQ)
-- [MARKET MAKER, run 04](https://youtu.be/9AhE6QxRRn4)
-- [WALL CONTACT, run 05](https://youtu.be/WgVbjzdoX9U)
-- [FLYTOK, run 06](https://youtu.be/ismtOkt6q18)
+- [SABER SYNC, run 01](https://youtu.be/kaau4EFe_fs)
+- [RAW SIGNAL, run 02](https://youtu.be/nE11CKId1rw)
+- [HELL PROTOCOL, run 03](https://youtu.be/_Y4ATRcFTyU)
+- [MARKET MAKER, run 04](https://youtu.be/u1YOD1ANK7I)
+- [WALL CONTACT, run 05](https://youtu.be/5jYuav0oCQs)
+- [THE FEED, run 06](https://youtu.be/txIp9AfX0nc)
 
 Live drop: https://fruitfly.fashion/
 

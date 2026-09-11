@@ -1,5 +1,5 @@
 {
-  "run_started_utc": "20260911T152138Z",
+  "run_started_utc": "20260911T171859Z",
   "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
   "dataset": {
     "annotations.feather": {
@@ -21,18 +21,18 @@
   "products": [
     {
       "slug": "hell-protocol",
-      "run_id": "20260911T152138Z-03-hell-protocol",
+      "run_id": "20260911T171859Z-03-hell-protocol",
       "seed_art_sha256": "1204b8f6ef281809f187fea77ae2798fe7fdf5506b7b80dce2659e9e6ec747fb",
-      "final_art_sha256": "2a8300dc8664edf8eefa48fcbdc25a68cd20c4de7393e55efe102d27daaeb9eb",
-      "response_chain_sha256": "11c9567c734408652606325ea2f5adda49bf2b839ec6bf4c06bc86f176fe2766",
+      "final_art_sha256": "257ebd688ded9269b73e602c8ce4c455a3872af88ed7097f5b9245d1d92b93df",
+      "response_chain_sha256": "fc5aa9ca959e2946035047d9d00694620e4fe8d46f964faa0222491f1f2e2d0e",
       "final_parameters": {
-        "hue_degrees": -19.067,
-        "rotation_degrees": 2.018,
-        "scale": 0.95373,
-        "x_shift_px": -2,
-        "y_shift_px": -11,
-        "echo_px": 21,
-        "echo_alpha": 19
+        "hue_degrees": 21.482,
+        "rotation_degrees": -1.029,
+        "scale": 0.98627,
+        "x_shift_px": 53,
+        "y_shift_px": 19,
+        "echo_px": 33,
+        "echo_alpha": 23
       },
       "passes": [
         {
@@ -40,7 +40,7 @@
           "spikes": 57102,
           "active": 8969,
           "sim_ms": 150.0,
-          "wall_seconds": 0.150953,
+          "wall_seconds": 0.150596,
           "response_sha256": "1664fa1aef6510140cab243cfe39ce8f99562cdfb07f402fcc8f6cd2f173f563",
           "parameters": {
             "hue_degrees": -0.431,
@@ -54,87 +54,87 @@
         },
         {
           "pass": "mirror",
-          "spikes": 46005,
-          "active": 8137,
+          "spikes": 51175,
+          "active": 8143,
           "sim_ms": 300.0,
-          "wall_seconds": 0.159494,
-          "response_sha256": "8937c8959712e96277aa10e160792078048e26e5419756d2464b962cc0f9f601",
+          "wall_seconds": 0.172879,
+          "response_sha256": "0f31ac3c2a97f616e9fb16c3f5fc8a25e68fc243bfd0c6e7363772ad37539b5c",
           "parameters": {
-            "hue_degrees": -19.412,
-            "rotation_degrees": -1.825,
-            "scale": 0.94627,
-            "x_shift_px": -41,
-            "y_shift_px": -57,
-            "echo_px": 12,
-            "echo_alpha": 33
+            "hue_degrees": -15.616,
+            "rotation_degrees": -1.194,
+            "scale": 1.00902,
+            "x_shift_px": -82,
+            "y_shift_px": 48,
+            "echo_px": 26,
+            "echo_alpha": 27
           }
         },
         {
           "pass": "contrast",
-          "spikes": 48235,
-          "active": 8141,
+          "spikes": 54439,
+          "active": 8168,
           "sim_ms": 450.0,
-          "wall_seconds": 0.146653,
-          "response_sha256": "e63e347d61fc2176e0403e135c4afd84579036cb458c367f15e96f5e0a051eb1",
+          "wall_seconds": 0.143667,
+          "response_sha256": "e865c9bca64c2c494d293b947a33a6d60b8bf4d33d7d78a706606652ea44dc48",
           "parameters": {
-            "hue_degrees": -0.949,
-            "rotation_degrees": 1.469,
-            "scale": 0.95765,
-            "x_shift_px": -42,
-            "y_shift_px": 88,
-            "echo_px": 37,
-            "echo_alpha": 40
+            "hue_degrees": 3.537,
+            "rotation_degrees": 2.731,
+            "scale": 0.92157,
+            "x_shift_px": 19,
+            "y_shift_px": -24,
+            "echo_px": 19,
+            "echo_alpha": 20
           }
         },
         {
           "pass": "cyan",
-          "spikes": 44826,
-          "active": 8045,
+          "spikes": 50293,
+          "active": 8116,
           "sim_ms": 600.0,
-          "wall_seconds": 0.152993,
-          "response_sha256": "32f943483408c6296bebb4d0986ba1792257dcf6908d9bef62bf2f0509d78019",
+          "wall_seconds": 0.158982,
+          "response_sha256": "03d0e5a2943d7a633399bfa0eda3b06738c0e22f250f34157458a002e22d11f3",
           "parameters": {
-            "hue_degrees": 5.263,
-            "rotation_degrees": 1.414,
-            "scale": 1.01922,
-            "x_shift_px": -2,
-            "y_shift_px": -85,
-            "echo_px": 30,
-            "echo_alpha": 28
+            "hue_degrees": -4.573,
+            "rotation_degrees": -0.727,
+            "scale": 0.95686,
+            "x_shift_px": -34,
+            "y_shift_px": -104,
+            "echo_px": 28,
+            "echo_alpha": 31
           }
         },
         {
           "pass": "magenta",
-          "spikes": 44509,
-          "active": 8065,
+          "spikes": 51408,
+          "active": 8242,
           "sim_ms": 750.0,
-          "wall_seconds": 0.159776,
-          "response_sha256": "9e3fc38923c632b0b72433143427bfafb3357ef1d28525597e54561ad7f0e6f2",
+          "wall_seconds": 0.162323,
+          "response_sha256": "97fab6abe9327bd0dbd8120234985f5088597b2f84a4661e03a7710df93a0366",
           "parameters": {
-            "hue_degrees": -18.722,
-            "rotation_degrees": -1.551,
-            "scale": 0.92549,
-            "x_shift_px": -38,
-            "y_shift_px": -23,
-            "echo_px": 36,
-            "echo_alpha": 30
+            "hue_degrees": 2.502,
+            "rotation_degrees": 2.045,
+            "scale": 0.97098,
+            "x_shift_px": -59,
+            "y_shift_px": -80,
+            "echo_px": 28,
+            "echo_alpha": 31
           }
         },
         {
           "pass": "final",
-          "spikes": 46469,
-          "active": 8146,
+          "spikes": 53237,
+          "active": 8139,
           "sim_ms": 900.0,
-          "wall_seconds": 0.150621,
-          "response_sha256": "887a59deed655f2b3bd77bac36c06bad2d86335fb60118453801613519ee06d8",
+          "wall_seconds": 0.160972,
+          "response_sha256": "57dff272d6978a83e967e03d3429c9eafdddbf67f1cbd19a6979fa1e5811b92a",
           "parameters": {
-            "hue_degrees": -19.067,
-            "rotation_degrees": 2.018,
-            "scale": 0.95373,
-            "x_shift_px": -2,
-            "y_shift_px": -11,
-            "echo_px": 21,
-            "echo_alpha": 19
+            "hue_degrees": 21.482,
+            "rotation_degrees": -1.029,
+            "scale": 0.98627,
+            "x_shift_px": 53,
+            "y_shift_px": 19,
+            "echo_px": 33,
+            "echo_alpha": 23
           }
         }
       ],
