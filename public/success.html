@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#070708">
+    <meta name="robots" content="noindex">
+    <title>Signal received / 166,700</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+      .success { min-height: 100svh; display: grid; place-items: center; padding: 32px; text-align: center; overflow: hidden; position: relative; }
+      .success::before { content:""; position:absolute; width:680px; height:680px; background:radial-gradient(circle,rgba(41,230,255,.12),rgba(255,43,214,.05) 38%,transparent 70%); }
+      .success img { position:absolute; width:min(500px,80vw); opacity:.14; }
+      .success > div { position:relative; max-width:700px; }
+      .success h1 { margin:0; font-size:clamp(60px,11vw,118px); line-height:.88; letter-spacing:-.07em; }
+      .success p:not(.eyebrow) { max-width:520px; margin:28px auto 36px; color:#aaaab0; font-size:18px; line-height:1.55; }
+    </style>
+  </head>
+  <body>
+    <main class="success">
+      <img src="/designs/raw-signal.png" alt="" aria-hidden="true">
+      <div>
+        <p class="eyebrow">PAYMENT CONFIRMED / SIGNAL RECEIVED</p>
+        <h1>Your fly is<br>in the queue.</h1>
+        <p id="order-status">Payment confirmed. Stripe will email your receipt, and tracking follows as soon as the neural tissue leaves the lab.</p>
+        <a class="button primary" href="/">Return to 166,700</a>
+      </div>
+    </main>
+    <script>
+      const sessionId = new URLSearchParams(location.search).get("session_id");
+      if (sessionId) fetch("/api/fulfill", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId })
+      }).then(response => {
+        if (response.ok) document.querySelector("#order-status").textContent = "Your shirt is in the print queue. Stripe will email your receipt, and tracking follows as soon as the neural tissue leaves the lab.";
+      });
+    </script>
+  </body>
+</html>

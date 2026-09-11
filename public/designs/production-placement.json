@@ -1,0 +1,87 @@
+{
+  "raw-signal": {
+    "source_sha256": "42e7085a241e0469f2a804214fe0c543e89890f5887b61708ee8c1d5388ea530",
+    "production_sha256": "6901cd064ba0b00c4de65eefa2166dd8de58c2de7a511773e445c7d17b92409a",
+    "template_px": {
+      "width": 4494,
+      "height": 5097
+    },
+    "density_dpi": 300,
+    "placement": {
+      "top": 330,
+      "maxWidth": 2860,
+      "maxHeight": 3150
+    }
+  },
+  "saber-sync": {
+    "source_sha256": "7f48ad306253fd764be0768c1f330fb9839b7f57802cea4ffdd3e4d5f0a6b6d3",
+    "production_sha256": "11a691e0477798290cbd075818f6f179b3eeea8605a9aa176c113f49a886d2cf",
+    "template_px": {
+      "width": 4494,
+      "height": 5097
+    },
+    "density_dpi": 300,
+    "placement": {
+      "top": 330,
+      "maxWidth": 2860,
+      "maxHeight": 3150
+    }
+  },
+  "hell-protocol": {
+    "source_sha256": "297e6fdface5ac94771464adcf9a941a5c9eecfd0b2072082cb783564e550541",
+    "production_sha256": "d814c4e18aaa91c90ab01f7eec34367daa7905ceaeb79bc5b691fc434c4dbb55",
+    "template_px": {
+      "width": 4494,
+      "height": 5097
+    },
+    "density_dpi": 300,
+    "placement": {
+      "top": 330,
+      "maxWidth": 2860,
+      "maxHeight": 3150
+    }
+  },
+  "market-maker": {
+    "source_sha256": "07a31aea1c04e08a4d5bab774d88f73f8dfb45cc0cab6aa417eb9efab274b914",
+    "production_sha256": "b08efc98daf397a9ff0380f636edb6cd59ffc100562cce7bc5a39702d200688f",
+    "template_px": {
+      "width": 4494,
+      "height": 5097
+    },
+    "density_dpi": 300,
+    "placement": {
+      "top": 330,
+      "maxWidth": 2860,
+      "maxHeight": 3150
+    }
+  },
+  "wall-contact": {
+    "source_sha256": "de4eb72b9d4f8cbdd1220ccf1e855ff3982eec2abdd5650412a9e034aea7ce84",
+    "production_sha256": "11c5c1f83a54573c3458111346f56d61cdaf39d117101319a86c68ccc4428f39",
+    "template_px": {
+      "width": 4494,
+      "height": 5097
+    },
+    "density_dpi": 300,
+    "placement": {
+      "top": 330,
+      "maxWidth": 2860,
+      "maxHeight": 3150
+    }
+  },
+  "flytok": {
+    "source_sha256": "ba56f0fcad494439bb85817c32fe1c82355c843c19ce8b583bc09ed24ac63ad0",
+    "production_sha256": "48ecab35495a7c2493ece0d5fd095dc6d126952176ac58b18856070a1842a020",
+    "template_px": {
+      "width": 4494,
+      "height": 5097
+    },
+    "density_dpi": 300,
+    "placement": {
+      "top": 510,
+      "left": 2500,
+      "maxWidth": 1050,
+      "maxHeight": 1180
+    }
+  }
+}

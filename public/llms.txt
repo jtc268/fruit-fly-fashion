@@ -1,0 +1,30 @@
+# Fruit Fly Fashion
+> Independent MaleCNS connectome art merch by Adore LLC (by Fly). Not affiliated with Google, HHMI Janelia, or game publishers.
+
+Site: https://fruitfly.fashion/
+GitHub: https://github.com/jtc268/fruit-fly-fashion
+
+## Key pages
+- [Home / shop UI](https://fruitfly.fashion/)
+- [About](https://fruitfly.fashion/about)
+- [MaleCNS explainer](https://fruitfly.fashion/male-cns-connectome-shirt)
+- [FAQ](https://fruitfly.fashion/faq)
+- [Shop index](https://fruitfly.fashion/shop)
+- [Returns](https://fruitfly.fashion/returns)
+- [Privacy](https://fruitfly.fashion/privacy)
+- [Terms](https://fruitfly.fashion/terms)
+
+## Products (~$39)
+- SABER SYNC: https://fruitfly.fashion/shop/saber-sync
+- RAW SIGNAL: https://fruitfly.fashion/shop/raw-signal
+- HELL PROTOCOL: https://fruitfly.fashion/shop/hell-protocol
+- MARKET MAKER: https://fruitfly.fashion/shop/market-maker
+- WALL CONTACT: https://fruitfly.fashion/shop/wall-contact
+- LOCAL MODEL: https://fruitfly.fashion/shop/local-model
+
+## Custom
+- FLY PAINT (~$49): brief → lane → paint on the homepage
+
+## Sources
+- MaleCNS: https://male-cns.janelia.org/
+- Google Research blog: https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/

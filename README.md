@@ -4,6 +4,17 @@ The 166,700-neuron MaleCNS connectome art-directed a six-shirt drop.
 
 This repository is the proof, not a vibes-only attribution. It downloads the official MaleCNS v1.0 release, verifies all three source hashes, runs the complete retained graph through DOOMFLY's audited LIF proxy, and uses the resulting spike vectors to control the final rotation, placement, and scale of each print file while preserving the seed composition's original RGB palette.
 
+## Storefront (fruitfly.fashion)
+
+The live shop is a Vercel project (`166700`) served from this repo's `public/` + `api/` tree.
+
+- Static pages and SEO: `public/`
+- Checkout / paint / fulfillment: `api/`
+- `vercel.json` uses `cleanUrls: true` and `trailingSlash: false`
+
+Deploy: from the repo root, `vercel --prod --yes --scope huskys-projects-b729d9dc` (CLI-linked project). Include `[deploy]` in commit messages for humans; production currently ships via Vercel CLI unless Git integration is enabled.
+
+
 ## Reproduce it
 
 ```sh

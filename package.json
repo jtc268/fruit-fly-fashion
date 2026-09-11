@@ -1,0 +1,16 @@
+{
+  "name": "166700-connectome-drop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4",
+    "stripe": "22.6.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
